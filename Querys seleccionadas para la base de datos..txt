@@ -1,0 +1,20 @@
+1.	Ventas mensuales totales:
+	•	Calcular el total de unidades vendidas por mes.
+2.	Promedio de crédito por rango etario y sexo:
+	•	Obtener el promedio de crédito agrupado por rango etario y sexo.
+3.	Productos comprados por edad y sexo:
+	•	Contar la cantidad de productos comprados, agrupados por edad y sexo.
+4.	Productos más vendidos en promoción:
+	•	Identificar los productos más vendidos cuando están en promoción.
+5.	Total de crédito otorgado por mes:
+	•	Calcular la suma total de crédito entregado por mes.
+6.	Edad promedio de compradores por mes:
+	•	Obtener la edad promedio de los compradores por mes.
+7.	Comparación de ventas entre hombres y mujeres:
+	•	Comparar las ventas totales entre hombres y mujeres.
+8.	Productos comprados por diferentes grupos de edad:
+	•	Contar la cantidad de productos comprados por grupos de edad predefinidos.
+9.	Monto total de ventas por rango etario:
+	•	Calcular el monto total de ventas agrupado por rango etario.
+10.	Análisis de tendencias mensuales:
+	•	Identificar tendencias mensuales de ventas a lo largo de varios meses
