@@ -1,0 +1,106 @@
+CREATE KEYSPACE "Proyecto1_Cass"
+WITH replication = {
+	'class' : 'SimpleStrategy',
+	'replication_factor' : 1
+};
+
+/* Creacion de tabla ventas - Q1 */
+
+CREATE TABLE "Proyecto1_Cass".venta (
+	id_venta uuid,
+	fecha text,
+	producto text,
+	PRIMARY KEY (id_venta)
+);
+
+DROP TABLE "Proyecto1_Cass".venta;
+
+CREATE TABLE "Proyecto1_Cass".venta_nueva (
+    id_venta UUID,
+    fecha DATE,
+    producto TEXT,
+    edad int,
+    sexo text,
+    estado_promocion bool,
+    
+
+    PRIMARY KEY (id_venta, fecha)
+);
+
+CREATE TABLE "Proyecto1_Cass".credito (
+	id_credito uuid,
+	sexo text,
+        edad int,
+	promedio_credito text,
+	PRIMARY KEY (id_rango_edad, sexo)
+);
+
+DROP TABLE "Proyecto1_Cass".venta;
+
+DROP TABLE "Proyecto1_Cass".credito;
+
+CREATE TABLE ventas (
+    id_venta UUID PRIMARY KEY,
+    fecha TEXT,
+    unidades INT,
+    producto TEXT,
+    promocion BOOLEAN
+);
+
+CREATE TABLE "Proyecto1_Cass".clientes (
+	id_cliente uuid,
+	edad int,
+	sexo text,
+	credito decimal,
+	PRIMARY KEY (id_cliente)
+);
+
+// Q1
+
+CREATE TABLE "Proyecto1_Cass".venta_por_mes (
+	id_venta uuid,
+	unidades int,
+	mes text,
+	PRIMARY KEY (id_venta, mes)
+);
+
+CREATE TABLE "Proyecto1_Cass".promociones (
+	id_promocion uuid,
+	nom_producto text,
+	nombre_promocion text,
+	PRIMARY KEY (id_promocion)
+);
+
+// Q7
+
+CREATE TABLE "Proyecto1_Cass".credito_por_mes (
+	id_credito_mes uuid,
+	mes text,
+	edad int,
+	ventas_totales decimal,
+	sexo text,
+	PRIMARY KEY (id_credito_mes)
+);
+
+//Q3
+
+CREATE TABLE "Proyecto1_Cass".productos_por_edad_sexo (
+	id_productos_edad_sexo uuid,
+	edad int,
+	sexo text,
+	cantidad text,
+	produco text,
+	PRIMARY KEY (( edad, sexo ), id_productos_edad_sexo)
+);
+
+//Q8
+
+CREATE TABLE "Proyecto1_Cass".ventas_por_grupo_edad (
+	id_ventas uuid,
+	edad int,
+	monto_venta decimal,
+	PRIMARY KEY (( monto_venta, edad ), id_ventas)
+);
+
+
+
