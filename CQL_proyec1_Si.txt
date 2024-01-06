@@ -1,0 +1,104 @@
+CREATE KEYSPACE "Proyecto1_Cass"
+WITH replication = {
+	'class' : 'SimpleStrategy',
+	'replication_factor' : 1
+};
+
+//Q1
+
+CREATE TABLE "Proyecto1_Cass".venta_mensual (
+	id_venta int,
+	fecha date,
+	unidades int,
+	PRIMARY KEY (id_venta, fecha)
+);
+
+//Q2 
+
+CREATE TABLE "Proyecto1_Cass".promedio_credito (
+	id_p_credito int,
+	monto decimal,
+	sexo text,
+	edad int,
+	PRIMARY KEY (id_p_credito, sexo, edad)
+);
+
+//Q3 
+
+CREATE TABLE "Proyecto1_Cass".producto_edad_sexo (
+	id_compra int,
+	edad int,
+	sexo text,
+	cantidad int,
+	nom_producto text,
+	PRIMARY KEY (id_compra, edad, sexo)
+);
+
+//Q4
+
+CREATE TABLE "Proyecto1_Cass".producto_vendido_promo (
+	id_venta int,
+	producto text,
+	promocion boolean,
+	cantidad int,
+	PRIMARY KEY (id_venta, promocion, cantidad)
+);
+
+//Q5 
+
+CREATE TABLE "Proyecto1_Cass".credito_mes (
+	id_credito int,
+	fecha date,
+	monto decimal,
+	PRIMARY KEY (id_credito, fecha)
+);
+
+//Q6
+
+CREATE TABLE "Proyecto1_Cass".edad_promedio_compra (
+	id_compra int,
+	fecha text,
+	edad_comprador text,
+	PRIMARY KEY (id_compra, fecha)
+);
+
+//Q7 
+
+CREATE TABLE "Proyecto1_Cass".comparacion_h_m (
+	id_ventas int,
+	sexo text,
+	cantidad int,
+	PRIMARY KEY (id_ventas, cantidad,sexo)
+);
+
+//Q8
+
+CREATE TABLE "Proyecto1_Cass".producto_comprado_edad (
+	id_venta int,
+	edad text,
+	cantidad int,
+	PRIMARY KEY (id_venta, cantidad, edad)
+);
+
+//Q9
+
+CREATE TABLE "Proyecto1_Cass".monto_total_edad (
+	id_venta int,
+	edad text,
+	monto decimal,
+	PRIMARY KEY (id_venta, edad)
+);
+
+//Q10
+
+CREATE TABLE "Proyecto1_Cass".ventas_acum_produc (
+	id_venta int,
+	producto text,
+	cantidad int,
+	PRIMARY KEY (id_venta, cantidad)
+);
+
+
+
+
+

@@ -1,0 +1,321 @@
+// llenado de datos 
+
+//venta mensual
+INSERT INTO "Proyecto1_Cass".venta_mensual (id_venta, fecha, unidades) VALUES (1, '2022-01-01', 10);
+
+INSERT INTO "Proyecto1_Cass".venta_mensual (id_venta, fecha, unidades) VALUES (2, '2022-01-02', 15);
+
+INSERT INTO "Proyecto1_Cass".venta_mensual (id_venta, fecha, unidades) VALUES (3, '2022-01-03', 8);
+
+INSERT INTO "Proyecto1_Cass".venta_mensual (id_venta, fecha, unidades) VALUES (4, '2022-02-01', 12);
+
+INSERT INTO "Proyecto1_Cass".venta_mensual (id_venta, fecha, unidades) VALUES (5, '2022-02-02', 18);
+
+INSERT INTO "Proyecto1_Cass".venta_mensual (id_venta, fecha, unidades) VALUES (6, '2022-02-03', 5);
+
+INSERT INTO "Proyecto1_Cass".venta_mensual (id_venta, fecha, unidades) VALUES (7, '2022-03-01', 20);
+
+INSERT INTO "Proyecto1_Cass".venta_mensual (id_venta, fecha, unidades) VALUES (8, '2022-03-02', 7);
+
+INSERT INTO "Proyecto1_Cass".venta_mensual (id_venta, fecha, unidades) VALUES (9, '2022-03-03', 14);
+
+INSERT INTO "Proyecto1_Cass".venta_mensual (id_venta, fecha, unidades) VALUES (10, '2022-04-01', 25);
+
+INSERT INTO "Proyecto1_Cass".venta_mensual (id_venta, fecha, unidades) VALUES (11, '2022-04-02', 9);
+
+INSERT INTO "Proyecto1_Cass".venta_mensual (id_venta, fecha, unidades) VALUES (12, '2022-04-03', 11);
+
+INSERT INTO "Proyecto1_Cass".venta_mensual (id_venta, fecha, unidades) VALUES (13, '2022-05-01', 16);
+
+INSERT INTO "Proyecto1_Cass".venta_mensual (id_venta, fecha, unidades) VALUES (14, '2022-05-02', 22);
+
+INSERT INTO "Proyecto1_Cass".venta_mensual (id_venta, fecha, unidades) VALUES (15, '2022-05-03', 13);
+
+// promedio_credito
+
+INSERT INTO "Proyecto1_Cass".promedio_credito (id_p_credito, monto, sexo, edad) VALUES (1, 500.0, 'Masculino', 25);
+
+INSERT INTO "Proyecto1_Cass".promedio_credito (id_p_credito, monto, sexo, edad) VALUES (2, 600.0, 'Femenino', 30);
+
+INSERT INTO "Proyecto1_Cass".promedio_credito (id_p_credito, monto, sexo, edad) VALUES (3, 700.0, 'Masculino', 35);
+
+INSERT INTO "Proyecto1_Cass".promedio_credito (id_p_credito, monto, sexo, edad) VALUES (4, 550.0, 'Femenino', 28);
+
+INSERT INTO "Proyecto1_Cass".promedio_credito (id_p_credito, monto, sexo, edad) VALUES (5, 800.0, 'Masculino', 22);
+
+INSERT INTO "Proyecto1_Cass".promedio_credito (id_p_credito, monto, sexo, edad) VALUES (6, 650.0, 'Femenino', 33);
+
+INSERT INTO "Proyecto1_Cass".promedio_credito (id_p_credito, monto, sexo, edad) VALUES (7, 900.0, 'Masculino', 27);
+
+INSERT INTO "Proyecto1_Cass".promedio_credito (id_p_credito, monto, sexo, edad) VALUES (8, 750.0, 'Femenino', 40);
+
+INSERT INTO "Proyecto1_Cass".promedio_credito (id_p_credito, monto, sexo, edad) VALUES (9, 1000.0, 'Masculino', 32);
+
+INSERT INTO "Proyecto1_Cass".promedio_credito (id_p_credito, monto, sexo, edad) VALUES (10, 850.0, 'Femenino', 26);
+
+INSERT INTO "Proyecto1_Cass".promedio_credito (id_p_credito, monto, sexo, edad) VALUES (11, 1200.0, 'Masculino', 29);
+
+INSERT INTO "Proyecto1_Cass".promedio_credito (id_p_credito, monto, sexo, edad) VALUES (12, 950.0, 'Femenino', 38);
+
+INSERT INTO "Proyecto1_Cass".promedio_credito (id_p_credito, monto, sexo, edad) VALUES (13, 1100.0, 'Masculino', 23);
+
+INSERT INTO "Proyecto1_Cass".promedio_credito (id_p_credito, monto, sexo, edad) VALUES (14, 1050.0, 'Femenino', 31);
+
+INSERT INTO "Proyecto1_Cass".promedio_credito (id_p_credito, monto, sexo, edad) VALUES (15, 950.0, 'Masculino', 36);
+
+// producto_edad_sexo
+
+INSERT INTO "Proyecto1_Cass".producto_edad_sexo (id_compra, edad, sexo, cantidad, nom_producto) VALUES (1, 25, 'Masculine', 10, 'Producto_A');
+
+INSERT INTO "Proyecto1_Cass".producto_edad_sexo (id_compra, edad, sexo, cantidad, nom_producto) VALUES (2, 30, 'Femenine', 15, 'Producto_B');
+
+INSERT INTO "Proyecto1_Cass".producto_edad_sexo (id_compra, edad, sexo, cantidad, nom_producto) VALUES (3, 35, 'Masculine', 8, 'Producto_C');
+
+INSERT INTO "Proyecto1_Cass".producto_edad_sexo (id_compra, edad, sexo, cantidad, nom_producto) VALUES (4, 28, 'Femenine', 12, 'Producto_A');
+
+INSERT INTO "Proyecto1_Cass".producto_edad_sexo (id_compra, edad, sexo, cantidad, nom_producto) VALUES (5, 22, 'Masculine', 18, 'Producto_B');
+
+INSERT INTO "Proyecto1_Cass".producto_edad_sexo (id_compra, edad, sexo, cantidad, nom_producto) VALUES (6, 33, 'Femenine', 5, 'Producto_C');
+
+INSERT INTO "Proyecto1_Cass".producto_edad_sexo (id_compra, edad, sexo, cantidad, nom_producto) VALUES (7, 27, 'Masculine', 20, 'Producto_A');
+
+INSERT INTO "Proyecto1_Cass".producto_edad_sexo (id_compra, edad, sexo, cantidad, nom_producto) VALUES (8, 40, 'Femenine', 7, 'Producto_B');
+
+INSERT INTO "Proyecto1_Cass".producto_edad_sexo (id_compra, edad, sexo, cantidad, nom_producto) VALUES (9, 32, 'Masculine', 14, 'Producto_C');
+
+INSERT INTO "Proyecto1_Cass".producto_edad_sexo (id_compra, edad, sexo, cantidad, nom_producto) VALUES (10, 26, 'Femenine', 25, 'Producto_A');
+
+INSERT INTO "Proyecto1_Cass".producto_edad_sexo (id_compra, edad, sexo, cantidad, nom_producto) VALUES (11, 29, 'Masculine', 9, 'Producto_B');
+
+INSERT INTO "Proyecto1_Cass".producto_edad_sexo (id_compra, edad, sexo, cantidad, nom_producto) VALUES (12, 38, 'Femenine', 11, 'Producto_C');
+
+INSERT INTO "Proyecto1_Cass".producto_edad_sexo (id_compra, edad, sexo, cantidad, nom_producto) VALUES (13, 23, 'Masculine', 16, 'Producto_A');
+
+INSERT INTO "Proyecto1_Cass".producto_edad_sexo (id_compra, edad, sexo, cantidad, nom_producto) VALUES (14, 31, 'Femenine', 22, 'Producto_B');
+
+INSERT INTO "Proyecto1_Cass".producto_edad_sexo (id_compra, edad, sexo, cantidad, nom_producto) VALUES (15, 36, 'Masculine', 13, 'Producto_C');
+
+// producto_vendido_promo
+
+INSERT INTO "Proyecto1_Cass".producto_vendido_promo (id_venta, producto, promocion, cantidad) VALUES (1, 'Producto_A', true, 10);
+
+INSERT INTO "Proyecto1_Cass".producto_vendido_promo (id_venta, producto, promocion, cantidad) VALUES (2, 'Producto_B', false, 15);
+
+INSERT INTO "Proyecto1_Cass".producto_vendido_promo (id_venta, producto, promocion, cantidad) VALUES (3, 'Producto_C', true, 8);
+
+INSERT INTO "Proyecto1_Cass".producto_vendido_promo (id_venta, producto, promocion, cantidad) VALUES (4, 'Producto_A', false, 12);
+
+INSERT INTO "Proyecto1_Cass".producto_vendido_promo (id_venta, producto, promocion, cantidad) VALUES (5, 'Producto_B', true, 18);
+
+INSERT INTO "Proyecto1_Cass".producto_vendido_promo (id_venta, producto, promocion, cantidad) VALUES (6, 'Producto_C', false, 5);
+
+INSERT INTO "Proyecto1_Cass".producto_vendido_promo (id_venta, producto, promocion, cantidad) VALUES (7, 'Producto_A', true, 20);
+
+INSERT INTO "Proyecto1_Cass".producto_vendido_promo (id_venta, producto, promocion, cantidad) VALUES (8, 'Producto_B', false, 7);
+
+INSERT INTO "Proyecto1_Cass".producto_vendido_promo (id_venta, producto, promocion, cantidad) VALUES (9, 'Producto_C', true, 14);
+
+INSERT INTO "Proyecto1_Cass".producto_vendido_promo (id_venta, producto, promocion, cantidad) VALUES (10, 'Producto_A', false, 25);
+
+INSERT INTO "Proyecto1_Cass".producto_vendido_promo (id_venta, producto, promocion, cantidad) VALUES (11, 'Producto_B', true, 9);
+
+INSERT INTO "Proyecto1_Cass".producto_vendido_promo (id_venta, producto, promocion, cantidad) VALUES (12, 'Producto_C', false, 11);
+
+INSERT INTO "Proyecto1_Cass".producto_vendido_promo (id_venta, producto, promocion, cantidad) VALUES (13, 'Producto_A', true, 16);
+
+INSERT INTO "Proyecto1_Cass".producto_vendido_promo (id_venta, producto, promocion, cantidad) VALUES (14, 'Producto_B', false, 22);
+
+INSERT INTO "Proyecto1_Cass".producto_vendido_promo (id_venta, producto, promocion, cantidad) VALUES (15, 'Producto_C', true, 13);
+
+// credito_mes
+
+INSERT INTO "Proyecto1_Cass".credito_mes (id_credito, fecha, monto) VALUES (1, '2022-01-01', 500.0);
+
+INSERT INTO "Proyecto1_Cass".credito_mes (id_credito, fecha, monto) VALUES (2, '2022-02-01', 600.0);
+
+INSERT INTO "Proyecto1_Cass".credito_mes (id_credito, fecha, monto) VALUES (3, '2022-03-01', 700.0);
+
+INSERT INTO "Proyecto1_Cass".credito_mes (id_credito, fecha, monto) VALUES (4, '2022-04-01', 550.0);
+
+INSERT INTO "Proyecto1_Cass".credito_mes (id_credito, fecha, monto) VALUES (5, '2022-05-01', 800.0);
+
+INSERT INTO "Proyecto1_Cass".credito_mes (id_credito, fecha, monto) VALUES (6, '2022-06-01', 650.0);
+
+INSERT INTO "Proyecto1_Cass".credito_mes (id_credito, fecha, monto) VALUES (7, '2022-07-01', 900.0);
+
+INSERT INTO "Proyecto1_Cass".credito_mes (id_credito, fecha, monto) VALUES (8, '2022-08-01', 750.0);
+
+INSERT INTO "Proyecto1_Cass".credito_mes (id_credito, fecha, monto) VALUES (9, '2022-09-01', 1000.0);
+
+INSERT INTO "Proyecto1_Cass".credito_mes (id_credito, fecha, monto) VALUES (10, '2022-10-01', 850.0);
+
+INSERT INTO "Proyecto1_Cass".credito_mes (id_credito, fecha, monto) VALUES (11, '2022-11-01', 1200.0);
+
+INSERT INTO "Proyecto1_Cass".credito_mes (id_credito, fecha, monto) VALUES (12, '2022-12-01', 950.0);
+
+INSERT INTO "Proyecto1_Cass".credito_mes (id_credito, fecha, monto) VALUES (13, '2023-01-01', 1100.0);
+
+INSERT INTO "Proyecto1_Cass".credito_mes (id_credito, fecha, monto) VALUES (14, '2023-02-01', 1050.0);
+
+INSERT INTO "Proyecto1_Cass".credito_mes (id_credito, fecha, monto) VALUES (15, '2023-03-01', 950.0);
+
+// edad_promedio_compra
+
+INSERT INTO "Proyecto1_Cass".edad_promedio_compra (id_compra, fecha, edad_comprador) VALUES (1, '2022-01-01', '34');
+
+INSERT INTO "Proyecto1_Cass".edad_promedio_compra (id_compra, fecha, edad_comprador) VALUES (2, '2022-01-02', '44');
+
+INSERT INTO "Proyecto1_Cass".edad_promedio_compra (id_compra, fecha, edad_comprador) VALUES (3, '2022-01-03', '24');
+
+INSERT INTO "Proyecto1_Cass".edad_promedio_compra (id_compra, fecha, edad_comprador) VALUES (4, '2022-02-01', '54');
+
+INSERT INTO "Proyecto1_Cass".edad_promedio_compra (id_compra, fecha, edad_comprador) VALUES (5, '2022-02-02', '34');
+
+INSERT INTO "Proyecto1_Cass".edad_promedio_compra (id_compra, fecha, edad_comprador) VALUES (6, '2022-02-03', '55');
+
+INSERT INTO "Proyecto1_Cass".edad_promedio_compra (id_compra, fecha, edad_comprador) VALUES (7, '2022-03-01', '18');
+
+INSERT INTO "Proyecto1_Cass".edad_promedio_compra (id_compra, fecha, edad_comprador) VALUES (8, '2022-03-02', '35');
+
+INSERT INTO "Proyecto1_Cass".edad_promedio_compra (id_compra, fecha, edad_comprador) VALUES (9, '2022-03-03', '45');
+
+INSERT INTO "Proyecto1_Cass".edad_promedio_compra (id_compra, fecha, edad_comprador) VALUES (10, '2022-04-01', '25');
+
+INSERT INTO "Proyecto1_Cass".edad_promedio_compra (id_compra, fecha, edad_comprador) VALUES (11, '2022-04-02', '55');
+
+INSERT INTO "Proyecto1_Cass".edad_promedio_compra (id_compra, fecha, edad_comprador) VALUES (12, '2022-04-03', '44');
+
+INSERT INTO "Proyecto1_Cass".edad_promedio_compra (id_compra, fecha, edad_comprador) VALUES (13, '2022-05-01', '54');
+
+INSERT INTO "Proyecto1_Cass".edad_promedio_compra (id_compra, fecha, edad_comprador) VALUES (14, '2022-05-02', '34');
+
+INSERT INTO "Proyecto1_Cass".edad_promedio_compra (id_compra, fecha, edad_comprador) VALUES (15, '2022-05-03', '24');
+
+//comparacion_h_m
+
+INSERT INTO "Proyecto1_Cass".comparacion_h_m (id_ventas, sexo, cantidad) VALUES (1, 'Masculine', 100);
+
+INSERT INTO "Proyecto1_Cass".comparacion_h_m (id_ventas, sexo, cantidad) VALUES (2, 'Feminine', 120);
+
+INSERT INTO "Proyecto1_Cass".comparacion_h_m (id_ventas, sexo, cantidad) VALUES (3, 'Masculine', 80);
+
+INSERT INTO "Proyecto1_Cass".comparacion_h_m (id_ventas, sexo, cantidad) VALUES (4, 'Feminine', 150);
+
+INSERT INTO "Proyecto1_Cass".comparacion_h_m (id_ventas, sexo, cantidad) VALUES (5, 'Masculine', 200);
+
+INSERT INTO "Proyecto1_Cass".comparacion_h_m (id_ventas, sexo, cantidad) VALUES (6, 'Feminine', 90);
+
+INSERT INTO "Proyecto1_Cass".comparacion_h_m (id_ventas, sexo, cantidad) VALUES (7, 'Masculine', 120);
+
+INSERT INTO "Proyecto1_Cass".comparacion_h_m (id_ventas, sexo, cantidad) VALUES (8, 'Feminine', 70);
+
+INSERT INTO "Proyecto1_Cass".comparacion_h_m (id_ventas, sexo, cantidad) VALUES (9, 'Masculine', 140);
+
+INSERT INTO "Proyecto1_Cass".comparacion_h_m (id_ventas, sexo, cantidad) VALUES (10, 'Feminine', 110);
+
+INSERT INTO "Proyecto1_Cass".comparacion_h_m (id_ventas, sexo, cantidad) VALUES (11, 'Masculine', 180);
+
+INSERT INTO "Proyecto1_Cass".comparacion_h_m (id_ventas, sexo, cantidad) VALUES (12, 'Feminine', 95);
+
+INSERT INTO "Proyecto1_Cass".comparacion_h_m (id_ventas, sexo, cantidad) VALUES (13, 'Masculine', 160);
+
+INSERT INTO "Proyecto1_Cass".comparacion_h_m (id_ventas, sexo, cantidad) VALUES (14, 'Feminine', 130);
+
+INSERT INTO "Proyecto1_Cass".comparacion_h_m (id_ventas, sexo, cantidad) VALUES (15, 'Masculine', 110);
+
+// producto_comprado_edad
+
+INSERT INTO "Proyecto1_Cass".producto_comprado_edad (id_venta, edad, cantidad) VALUES (1, '18', 10);
+
+INSERT INTO "Proyecto1_Cass".producto_comprado_edad (id_venta, edad, cantidad) VALUES (2, '25', 15);
+
+INSERT INTO "Proyecto1_Cass".producto_comprado_edad (id_venta, edad, cantidad) VALUES (3, '35', 8);
+
+INSERT INTO "Proyecto1_Cass".producto_comprado_edad (id_venta, edad, cantidad) VALUES (4, '45', 12);
+
+INSERT INTO "Proyecto1_Cass".producto_comprado_edad (id_venta, edad, cantidad) VALUES (5, '55', 18);
+
+INSERT INTO "Proyecto1_Cass".producto_comprado_edad (id_venta, edad, cantidad) VALUES (6, '18', 5);
+
+INSERT INTO "Proyecto1_Cass".producto_comprado_edad (id_venta, edad, cantidad) VALUES (7, '25', 20);
+
+INSERT INTO "Proyecto1_Cass".producto_comprado_edad (id_venta, edad, cantidad) VALUES (8, '35', 7);
+
+INSERT INTO "Proyecto1_Cass".producto_comprado_edad (id_venta, edad, cantidad) VALUES (9, '45', 14);
+
+INSERT INTO "Proyecto1_Cass".producto_comprado_edad (id_venta, edad, cantidad) VALUES (10, '55', 25);
+
+INSERT INTO "Proyecto1_Cass".producto_comprado_edad (id_venta, edad, cantidad) VALUES (11, '18', 9);
+
+INSERT INTO "Proyecto1_Cass".producto_comprado_edad (id_venta, edad, cantidad) VALUES (12, '25', 11);
+
+INSERT INTO "Proyecto1_Cass".producto_comprado_edad (id_venta, edad, cantidad) VALUES (13, '35', 16);
+
+INSERT INTO "Proyecto1_Cass".producto_comprado_edad (id_venta, edad, cantidad) VALUES (14, '45', 22);
+
+INSERT INTO "Proyecto1_Cass".producto_comprado_edad (id_venta, edad, cantidad) VALUES (15, '55', 13);
+
+// monto_total_edad
+
+INSERT INTO "Proyecto1_Cass".monto_total_edad (id_venta, edad, monto) VALUES (1, '18', 500.0);
+
+INSERT INTO "Proyecto1_Cass".monto_total_edad (id_venta, edad, monto) VALUES (2, '22', 600.0);
+
+INSERT INTO "Proyecto1_Cass".monto_total_edad (id_venta, edad, monto) VALUES (3, '28', 700.0);
+
+INSERT INTO "Proyecto1_Cass".monto_total_edad (id_venta, edad, monto) VALUES (4, '35', 550.0);
+
+INSERT INTO "Proyecto1_Cass".monto_total_edad (id_venta, edad, monto) VALUES (5, '40', 800.0);
+
+INSERT INTO "Proyecto1_Cass".monto_total_edad (id_venta, edad, monto) VALUES (6, '45', 650.0);
+
+INSERT INTO "Proyecto1_Cass".monto_total_edad (id_venta, edad, monto) VALUES (7, '50', 900.0);
+
+INSERT INTO "Proyecto1_Cass".monto_total_edad (id_venta, edad, monto) VALUES (8, '28', 750.0);
+
+INSERT INTO "Proyecto1_Cass".monto_total_edad (id_venta, edad, monto) VALUES (9, '22', 1000.0);
+
+INSERT INTO "Proyecto1_Cass".monto_total_edad (id_venta, edad, monto) VALUES (10, '35', 850.0);
+
+INSERT INTO "Proyecto1_Cass".monto_total_edad (id_venta, edad, monto) VALUES (11, '40', 1200.0);
+
+INSERT INTO "Proyecto1_Cass".monto_total_edad (id_venta, edad, monto) VALUES (12, '45', 950.0);
+
+INSERT INTO "Proyecto1_Cass".monto_total_edad (id_venta, edad, monto) VALUES (13, '50', 1100.0);
+
+INSERT INTO "Proyecto1_Cass".monto_total_edad (id_venta, edad, monto) VALUES (14, '28', 1050.0);
+
+INSERT INTO "Proyecto1_Cass".monto_total_edad (id_venta, edad, monto) VALUES (15, '22', 950.0);
+
+// ventas_acum_produc
+
+INSERT INTO "Proyecto1_Cass".ventas_acum_produc (id_venta, producto, cantidad) VALUES (1, 'Producto_A', 10);
+
+INSERT INTO "Proyecto1_Cass".ventas_acum_produc (id_venta, producto, cantidad) VALUES (2, 'Producto_B', 15);
+
+INSERT INTO "Proyecto1_Cass".ventas_acum_produc (id_venta, producto, cantidad) VALUES (3, 'Producto_C', 8);
+
+INSERT INTO "Proyecto1_Cass".ventas_acum_produc (id_venta, producto, cantidad) VALUES (4, 'Producto_A', 12);
+
+INSERT INTO "Proyecto1_Cass".ventas_acum_produc (id_venta, producto, cantidad) VALUES (5, 'Producto_B', 18);
+
+INSERT INTO "Proyecto1_Cass".ventas_acum_produc (id_venta, producto, cantidad) VALUES (6, 'Producto_C', 5);
+
+INSERT INTO "Proyecto1_Cass".ventas_acum_produc (id_venta, producto, cantidad) VALUES (7, 'Producto_A', 20);
+
+INSERT INTO "Proyecto1_Cass".ventas_acum_produc (id_venta, producto, cantidad) VALUES (8, 'Producto_B', 7);
+
+INSERT INTO "Proyecto1_Cass".ventas_acum_produc (id_venta, producto, cantidad) VALUES (9, 'Producto_C', 14);
+
+INSERT INTO "Proyecto1_Cass".ventas_acum_produc (id_venta, producto, cantidad) VALUES (10, 'Producto_A', 25);
+
+INSERT INTO "Proyecto1_Cass".ventas_acum_produc (id_venta, producto, cantidad) VALUES (11, 'Producto_B', 9);
+
+INSERT INTO "Proyecto1_Cass".ventas_acum_produc (id_venta, producto, cantidad) VALUES (12, 'Producto_C', 11);
+
+INSERT INTO "Proyecto1_Cass".ventas_acum_produc (id_venta, producto, cantidad) VALUES (13, 'Producto_A', 16);
+
+INSERT INTO "Proyecto1_Cass".ventas_acum_produc (id_venta, producto, cantidad) VALUES (14, 'Producto_B', 22);
+
+INSERT INTO "Proyecto1_Cass".ventas_acum_produc (id_venta, producto, cantidad) VALUES (15, 'Producto_C', 13);
+

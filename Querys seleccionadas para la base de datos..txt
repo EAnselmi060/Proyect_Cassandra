@@ -16,5 +16,5 @@
 	•	Contar la cantidad de productos comprados por grupos de edad predefinidos.
 9.	Monto total de ventas por rango etario:
 	•	Calcular el monto total de ventas agrupado por rango etario.
-10.	Análisis de tendencias mensuales:
-	•	Identificar tendencias mensuales de ventas a lo largo de varios meses
+10.	Ventas acumuladas por producto:
+	•	Calcular las ventas acumuladas de cada producto a lo largo del tiempo.
