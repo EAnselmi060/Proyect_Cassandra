@@ -58,7 +58,7 @@ CREATE TABLE "Proyecto1_Cass".credito_mes (
 CREATE TABLE "Proyecto1_Cass".edad_promedio_compra (
 	id_compra int,
 	fecha text,
-	edad_comprador text,
+	edad_comprador int,
 	PRIMARY KEY (id_compra, fecha)
 );
 
@@ -75,7 +75,7 @@ CREATE TABLE "Proyecto1_Cass".comparacion_h_m (
 
 CREATE TABLE "Proyecto1_Cass".producto_comprado_edad (
 	id_venta int,
-	edad text,
+	edad int,
 	cantidad int,
 	PRIMARY KEY (id_venta, cantidad, edad)
 );
@@ -84,7 +84,7 @@ CREATE TABLE "Proyecto1_Cass".producto_comprado_edad (
 
 CREATE TABLE "Proyecto1_Cass".monto_total_edad (
 	id_venta int,
-	edad text,
+	edad int,
 	monto decimal,
 	PRIMARY KEY (id_venta, edad)
 );
@@ -97,8 +97,6 @@ CREATE TABLE "Proyecto1_Cass".ventas_acum_produc (
 	cantidad int,
 	PRIMARY KEY (id_venta, cantidad)
 );
-
-
 
 
 
