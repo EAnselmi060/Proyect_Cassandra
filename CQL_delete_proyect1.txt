@@ -1,0 +1,50 @@
+-- DELETE table: venta_mensual 
+
+DELETE FROM "Proyecto1_Cass".venta_mensual WHERE id_venta = 10 AND fecha = '2022-04-01';
+
+-- DELETE table: promedio_credito
+
+DELETE FROM "Proyecto1_Cass".promedio_credito WHERE id_p_credito = 7;
+
+-- DELETE table: producto_edad_sexo
+
+DELETE FROM "Proyecto1_Cass".producto_edad_sexo WHERE id_compra = 2 AND edad = 30 AND sexo = 'Femenine';
+
+-- DELETE table: producto_vendido_promo
+
+DELETE FROM "Proyecto1_Cass".producto_vendido_promo WHERE id_venta = 5 AND promocion = true AND cantidad = 18;
+
+-- DELETE table: credito_mes 
+
+DELETE FROM "Proyecto1_Cass".credito_mes WHERE id_credito = 8 AND fecha = '2022-08-01';
+
+
+-- DELETE table: edad_promedio_compra
+
+DELETE FROM "Proyecto1_Cass".edad_promedio_compra WHERE id_compra = 8 AND fecha = '2022-03-02';
+
+-- DELETE table: comparacion_h_m
+
+DELETE FROM "Proyecto1_Cass".comparacion_h_m WHERE id_ventas = 9 AND cantidad = 140 AND sexo = 'Masculine';
+
+
+-- DELETE table: producto_comprado_edad 
+
+DELETE FROM "Proyecto1_Cass".producto_comprado_edad WHERE id_venta = 5 AND edad = 55 AND cantidad = 18;
+
+-- DELETE table: monto_total_edad
+
+DELETE FROM "Proyecto1_Cass".monto_total_edad WHERE id_venta = 15 AND edad = 22;
+
+-- DELETE table: ventas_acum_produc
+
+DELETE FROM "Proyecto1_Cass".ventas_acum_produc WHERE id_venta = 12 AND cantidad = 11;
+
+
+
+
+
+
+
+
+
