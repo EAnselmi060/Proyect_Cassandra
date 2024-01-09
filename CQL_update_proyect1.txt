@@ -1,0 +1,50 @@
+-- UPDATE table: venta_mensual 
+
+UPDATE "Proyecto1_Cass".venta_mensual 
+SET unidades = 20 
+WHERE id_venta = 2 AND fecha = '2022-01-02';
+
+-- UPDATE table: promedio_credito
+
+UPDATE "Proyecto1_Cass".promedio_credito 
+SET monto = 800.0 
+WHERE id_p_credito = 3 AND sexo = 'Masculino' AND edad = 35;
+
+-- UPDATE table: producto_edad_sexo
+
+UPDATE "Proyecto1_Cass".producto_edad_sexo 
+SET cantidad = 20, nom_producto = 'Producto_C' 
+WHERE id_compra = 2 AND edad = 30 AND sexo = 'Femenine';
+
+--UPDATE table: producto_vendido_promo
+
+UPDATE "Proyecto1_Cass".producto_vendido_promo 
+SET producto = 'Producto_B'
+WHERE id_venta = 10 AND cantidad = 25 AND promocion = false;
+
+
+--UPDATE table: credito_mes 
+
+UPDATE "Proyecto1_Cass".credito_mes 
+SET monto = 700.0 
+WHERE id_credito = 2 AND fecha = '2022-02-01';
+
+
+--UPDATE table: edad_promedio_compra
+
+UPDATE "Proyecto1_Cass".edad_promedio_compra 
+SET edad_comprador = 30 
+WHERE id_compra = 10 AND fecha = '2022-04-01';
+
+--UPDATE table: monto_total_edad
+
+UPDATE "Proyecto1_Cass".monto_total_edad 
+SET monto = 700.0 
+WHERE id_venta = 6 AND edad = 45;
+
+
+--UPDATE table: ventas_acum_produc
+
+UPDATE "Proyecto1_Cass".ventas_acum_produc 
+SET producto = 'Producto_A' 
+WHERE id_venta = 12 AND cantidad = 11;
