@@ -1,0 +1,31 @@
+-- Q1: Obtener las ventas mensuales
+SELECT * FROM "Proyecto1_Cass".venta_mensual;
+
+-- Q2: Obtener el promedio de crédito por sexo y edad
+SELECT * FROM "Proyecto1_Cass".promedio_credito;
+
+-- Q3: Obtener la cantidad de productos vendidos por edad y sexo
+SELECT * FROM "Proyecto1_Cass".producto_edad_sexo;
+
+-- Q4: Obtener los productos vendidos con promoción
+SELECT * FROM "Proyecto1_Cass".producto_vendido_promo WHERE promocion = true;
+
+-- Q5: Obtener los montos de crédito por mes
+SELECT * FROM "Proyecto1_Cass".credito_mes;
+
+-- Q6: Obtener la edad promedio de compra
+SELECT * FROM "Proyecto1_Cass".edad_promedio_compra;
+
+-- Q7: Comparación de ventas por sexo
+SELECT * FROM "Proyecto1_Cass".comparacion_h_m;
+
+-- Q8: Productos comprados por edad
+SELECT * FROM "Proyecto1_Cass".producto_comprado_edad;
+
+-- Q9: Monto total de ventas por edad
+SELECT * FROM "Proyecto1_Cass".monto_total_edad;
+
+-- Q10: Ventas acumuladas por producto
+SELECT * FROM "Proyecto1_Cass".ventas_acum_produc;
+
+
